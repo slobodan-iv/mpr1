@@ -14,7 +14,7 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Лежај!</title>
+    <title>Капаљка за уље!</title>
   </head>
   <body>
     <!-- navbar -->
@@ -43,10 +43,10 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Лежај</a>
+              <a class="nav-link" href="lezaj.html">Лежај</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="skip.html">СКиП</a>
+              <a class="nav-link active" href="#">СКиП</a>
             </li>
           </ul>
         </div>
@@ -56,59 +56,70 @@
     <div class="container">
       <!-- Content here -->
       <div>
-        <h1>Моделирање прстенастог конично - ваљчаног једноредног лежаја</h1>
+        <h1>Моделирање капаљке за уље система за подмазивање</h1>
         <div class="row justify-content-center">
           <div class="col-12 col-sm-12 col-md-11 col-lg-10">
-            <div class="accordion" id="modeliranje_lezaja">
+            <div class="accordion" id="modeliranje_kapaljke_za_ulje">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="crtez_lezaja">
-                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_crtez_lezaja" aria-expanded="true" aria-controls="collapse_crtez_lezaja">
+                <h2 class="accordion-header" id="crtez_kapaljke">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_crtez_kapaljke" aria-expanded="true" aria-controls="collapse_crtez_kapaljke">
                     Цртеж:
                   </button>
                 </h2>
-                <div id="collapse_crtez_lezaja" class="accordion-collapse collapse show" aria-labelledby="crtez_lezaja" data-bs-parent="#modeliranje_lezaja">
+                <div id="collapse_crtez_kapaljke" class="accordion-collapse collapse show" aria-labelledby="crtez_kapaljke" data-bs-parent="#modeliranje_kapaljke_za_ulje">
                   <div class="accordion-body">
-                    <img src="Pictures/Crtezi/30306.jpg" width="100%" alt="Цртеж лежаја">
+                    <img src="Pictures/Crtezi/Sistem_za_podmazivanje.jpg" width="100%" alt="Капаљка за уље система за подмазивање">
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header" id="T2_6">
-                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_T2_6" aria-expanded="true" aria-controls="collapse_T2_6">
-                    Табела 2.6:
+                <h2 class="accordion-header" id="Vitvortov_navoj">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_Vitvortov_navoj" aria-expanded="true" aria-controls="collapse_Vitvortov_navoj">
+                    Табела Whithworth-овог навоја:
                   </button>
                 </h2>
-                <div id="collapse_T2_6" class="accordion-collapse collapse" aria-labelledby="T2_6" data-bs-parent="#modeliranje_lezaja">
+                <div id="collapse_Vitvortov_navoj" class="accordion-collapse collapse" aria-labelledby="Vitvortov_navoj" data-bs-parent="#modeliranje_kapaljke_za_ulje">
                   <div class="accordion-body">
-                    <img src="Pictures/T2_6.jpg" width="100%" alt="Табела 2.6">
+                    <img src="Pictures/Vitvortov_navoj.jpg" width="100%" alt="Табела Whithworth-овог навоја">
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header" id="mic_lezaja">
-                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_mic_lezaja" aria-expanded="true" aria-controls="collapse_mic_lezaja">
+                <h2 class="accordion-header" id="mic_kapaljke_za_ulje">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_mic_kapaljke_za_ulje" aria-expanded="true" aria-controls="collapse_mic_kapaljke_za_ulje">
                     Моделирање и израда цртежа:
                   </button>
                 </h2>
-                <div id="collapse_mic_lezaja" class="accordion-collapse collapse" aria-labelledby="mic_lezaja" data-bs-parent="#modeliranje_lezaja">
+                <div id="collapse_mic_kapaljke_za_ulje" class="accordion-collapse collapse" aria-labelledby="mic_kapaljke_za_ulje" data-bs-parent="#modeliranje_kapaljke_za_ulje">
                   <div class="accordion-body">
-                    <div class="card ratio ratio-16x9">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZpfuLkRXytA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <ul class="nav nav-tabs" id="model_i_crtez_kapaljke_za_ulje_tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="izrada_modela_flasice-tab" data-bs-toggle="tab" data-bs-target="#izrada_modela_flasice" type="button" role="tab" aria-controls="izrada_modela_flasice" aria-selected="true">Моделирање флашице</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="izrada_modela_kapice-tab" data-bs-toggle="tab" data-bs-target="#izrada_modela_kapice" type="button" role="tab" aria-controls="izrada_modela_kapice" aria-selected="true">Моделирање капице</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="izrada_crteza-tab" data-bs-toggle="tab" data-bs-target="#izrada_crteza" type="button" role="tab" aria-controls="izrada_crteza" aria-selected="true">Израда цртежа</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="model_i_crtez_kapaljke_za_ulje_TabContent">
+                      <div class="tab-pane show active" id="izrada_modela_flasice" role="tabpanel" aria-labelledby="izrada_modela_flasice-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/qN9Spt4DMt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="izrada_modela_kapice" role="tabpanel" aria-labelledby="izrada_modela_kapice-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/MkIi1ami_Ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="izrada_crteza" role="tabpanel" aria-labelledby="izrada_crteza-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/OyxW0l2MGk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="download">
-                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_download" aria-expanded="true" aria-controls="collapse_download">
-                    Download докумената:
-                  </button>
-                </h2>
-                <div id="collapse_download" class="accordion-collapse collapse" aria-labelledby="download" data-bs-parent="#modeliranje_lezaja">
-                  <div class="accordion-body">
-                    <p>
-                      <a href="static/Oblici_lezaja.pdf">"PDF" документ, о лежајевима - download</a>
-                    </p>
                   </div>
                 </div>
               </div>
